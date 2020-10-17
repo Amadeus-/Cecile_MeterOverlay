@@ -1,4 +1,4 @@
-﻿## Interface: 80300
+﻿## Interface: 90001
 ## Title: |cffffffffCecile|r_|cfffff569MeterOverlay|r
 ## Notes: Display your damage meter as overlay
 ## Author: Cecile, shadowphoenix (Details support), ckaotik (Numeration support)
