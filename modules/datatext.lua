@@ -353,6 +353,10 @@ end
 --format the tooltip
 function mod:FormatTooltip(tooltip)
 
+	if (tooltip == nil) then
+		return
+	end
+
 	tooltip:SetBackdrop({
 		bgFile = nil,
 		edgeFile = nil,
@@ -376,7 +380,6 @@ function mod:FormatTooltip(tooltip)
 		mod:FormatTooltipLine(_G["CMODatatextTooltipTextRight"..i]);
 
 	end
-
 end
 
 --init the datatext
