@@ -474,7 +474,7 @@ function mod:OnInitialize()
 		end)
 
 	--our tooltip
-	mod.tooltip = CreateFrame("GameTooltip", "CMODatatextTooltip", UIParent, "GameTooltipTemplate")
+	mod.tooltip = CreateFrame("GameTooltip", "CMODatatextTooltip", UIParent, "GameTooltipTemplate" and "BackdropTemplate")
 
 	--hook for style the tooltipe
 	mod.tooltip:HookScript("OnShow",function (self)
