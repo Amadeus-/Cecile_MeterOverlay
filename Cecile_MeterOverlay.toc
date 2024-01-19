@@ -1,4 +1,4 @@
-﻿## Interface: 100002
+﻿## Interface: 100205
 ## Title: |cffffffffCecile|r_|cfffff569MeterOverlay|r
 ## Notes: Display your damage meter as overlay
 ## Author: Cecile, shadowphoenix (Details support), ckaotik (Numeration support), Amadeus (maintainer since 1.2.2)
